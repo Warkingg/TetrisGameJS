@@ -252,7 +252,6 @@ function drop() {
         p.moveDown();
         dropStart = Date.now();
     }
-    }
     if (!gameOver) {
         requestAnimationFrame(drop);
     }
